@@ -1,0 +1,43 @@
+.mainContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+
+.videoContainer {
+  display: flex;
+  flex: 0.5;
+  align-items: flex-end;
+}
+
+.btnContainer {
+  display: flex;
+  flex: 0.3;
+  align-items: center;
+  gap: 10px;
+}
+
+.infoContainer {
+  display: flex;
+  flex: 0.2;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding for desired size */
+  background-color: transparent;
+  border: 2px solid #3498db; /* Border color */
+  color: #3498db; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px; /* Adjust font size */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3498db; /* Background color on hover */
+    color: white; /* Text color on hover */
+}
