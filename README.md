@@ -1,2 +1,2 @@
-# ml-object-detection
-Object detection model app using TensorFlow js on a Node js backend with socket IO on a React front end
+# Object Detection TensorFlow
+Object detection model app using TensorFlow JS on a Node JS backend with socket IO on a React front end
